@@ -20,5 +20,5 @@ import { Link } from "react-router-dom";
     );
   };
 
-  export default Pet
+  export default Pet;
   

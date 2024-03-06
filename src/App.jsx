@@ -9,13 +9,13 @@ const queryClient = new QueryClient({
     queries: {
       staleTime: Infinity,
       cacheTime: Infinity,
-    }
-  }
-})
+    },
+  },
+});
 
 const App = () => {
   return(
-    <BrowserRouter>
+<BrowserRouter>
       <QueryClientProvider client={queryClient}>
         <header>
           <Link to="/">Adopt Me!</Link>
